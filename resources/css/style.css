@@ -1,2 +1,32 @@
 /* CSS Stylesheet for Unit 5 Tortoiseshell Optics */
 /* Chris Ward */
+
+/* Universal Styles */
+
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+}
+
+/* Header Section */
+
+header {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+}
+
+.logo-image {
+  height: 1.5rem;
+  width: auto;
+
+}
+
+.logo-image img {
+  height: inherit;
+  width: auto;
+}
